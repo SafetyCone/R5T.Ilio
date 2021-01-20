@@ -11,8 +11,8 @@ namespace R5T.Ilio
 
         public static Miles From(double value)
         {
-            var endpointIdentity = new Miles(value);
-            return endpointIdentity;
+            var miles = new Miles(value);
+            return miles;
         }
 
         #endregion
