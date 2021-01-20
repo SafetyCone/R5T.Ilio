@@ -4,4 +4,11 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Dubley\source\R5T.Dubley\R5T.Dubley.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\Distances\" />
+    <Folder Include="Code\Extensions\" />
+  </ItemGroup>
 </Project>
